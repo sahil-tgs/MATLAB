@@ -55,6 +55,6 @@ figure(1);
 plot1 = stem(n, x_n);
 title('x[n]');
 
-figure 2;
+figure (2);
 surf(X, Y, 10*log10(z_x),'linestyle','none')
 title('X[z]');
